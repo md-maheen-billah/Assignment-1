@@ -11,6 +11,7 @@
 }
 /* Banner */
 .banner {
+  margin: 0 auto;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -25,6 +26,7 @@
   border-radius: 16px;
   background-size: cover;
   gap: 16px;
+  width: 1320px;
 }
 
 .banner-title1 {
@@ -106,6 +108,8 @@
   height: 600px;
   border-radius: 16px;
   gap: 39.17px;
+  margin: 0 auto;
+  width: 1320px;
 }
 .welcome-text {
   max-width: 697px;
@@ -147,8 +151,11 @@
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
+
   height: 482px;
   border-radius: 16px;
+  margin: 0 auto;
+  width: 1320px;
 }
 .place-text {
   padding: 100px;
@@ -177,4 +184,15 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+/* Holiday */
+.holiday-image {
+  width: 1320px;
+  height: 662px;
+  background: url("../resources/Group\ 75.png"),
+    url("../resources/Rectangle\ 2.png"), url("../resources/Group\ 44.png"),
+    url("../resources/Rectangle\ 1.png");
+  background-position: bottom left, bottom, right 285px bottom 288px, top right;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
