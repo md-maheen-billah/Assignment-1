@@ -4,6 +4,11 @@
   margin: 0;
   padding: 0;
 }
+body {
+  width: 1600px;
+  margin: 0 auto;
+  background: #f00;
+}
 .container {
   width: 82.5%;
   max-width: 1320px;
@@ -50,11 +55,6 @@
   line-height: 95px;
 }
 /* Discount */
-#discount {
-  width: 82.5%;
-  max-width: 1320px;
-  margin: 120px auto;
-}
 .discount-box {
   display: flex;
   flex-direction: column;
