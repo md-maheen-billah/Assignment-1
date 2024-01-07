@@ -60,6 +60,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 802px;
+  margin: 0 auto;
 }
 .discount-text-head {
   color: #f00;
