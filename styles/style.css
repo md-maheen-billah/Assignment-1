@@ -51,8 +51,8 @@
 }
 /* Discount */
 #discount {
-  width: 50.18%;
-  max-width: 1320;
+  width: 82.5%;
+  max-width: 1320px;
   margin: 120px auto;
 }
 .discount-box {
@@ -60,6 +60,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50.18%;
   width: 802px;
   margin: 0 auto;
 }
