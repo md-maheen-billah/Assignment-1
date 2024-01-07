@@ -187,6 +187,77 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+/* Best Offer */
+.best-offer {
+  width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.best-offer-column1 {
+  margin: 104px 0;
+  margin-right: 70px;
+}
+.best-offer-column1-title1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.best-offer-column1-title2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.best-offer-column1-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 393px;
+}
+.best-offer-column2-img {
+  width: 364.844px;
+  height: 364.844px;
+  border-radius: 50%;
+  padding: 49px;
+  border: 15px solid #f00;
+  margin-right: 118px;
+}
+.best-offer-column3 {
+  margin: 104px 0;
+}
+.best-offer-column3-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.best-offer-column3-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 276px;
+  margin-bottom: 43px;
+}
+
 /* Holiday */
 .holiday {
   width: 1320px;
@@ -320,13 +391,16 @@ body {
   border: none;
   border-radius: 50px 0px 0px 50px;
   background: #fff;
-  color: rgba(7, 2, 17, 0.3);
+  color: rgba(7, 2, 17, 0.6);
   padding-left: 30px;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.newsletter-email::placeholder {
+  color: rgba(7, 2, 17, 0.3);
 }
 .newsletter-button {
   width: 210px;
@@ -377,6 +451,15 @@ footer {
 .footer-row1-right {
   margin-right: 151px;
 }
+.footer-row1-right a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
 .footer-row1-right-content {
   display: flex;
   justify-content: left;
@@ -387,6 +470,15 @@ footer {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+.footer-row3-left a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
 }
 hr {
   border: none;
