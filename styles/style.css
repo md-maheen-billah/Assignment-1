@@ -186,13 +186,50 @@
   line-height: normal;
 }
 /* Holiday */
+.holiday {
+  width: 1320px;
+  margin: 0 auto;
+}
 .holiday-image {
   width: 1320px;
   height: 662px;
   background: url("../resources/Group\ 75.png"),
     url("../resources/Rectangle\ 2.png"), url("../resources/Group\ 44.png"),
     url("../resources/Rectangle\ 1.png");
-  background-position: bottom left, bottom, right 285px bottom 288px, top right;
+  background-position: bottom left, bottom, right 280px bottom 288px, top right;
   background-repeat: no-repeat;
   margin: 0 auto;
+}
+.holiday-text {
+  text-align: center;
+}
+.holiday-text-title1 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.holiday-text-title2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+.holiday-text-title2-color {
+  color: #f00;
+}
+.holiday-text-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  margin: 0 126px 64px;
+  font-weight: 500;
+  line-height: 32px;
+  /* 160% */
 }
