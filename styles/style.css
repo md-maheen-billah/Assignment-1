@@ -316,6 +316,15 @@ body {
   gap: 24px;
   margin-bottom: 24px;
 }
+.portfolio-img-rss {
+  width: 424px;
+  height: 450px;
+}
+.portfolio-img-rss:hover {
+  border: 2px solid;
+  border-radius: 50%;
+}
+
 .portfolio-img-2 {
   display: flex;
   gap: 24px;
